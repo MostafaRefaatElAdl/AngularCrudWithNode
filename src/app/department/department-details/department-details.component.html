@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-body">
+        <br>
+<div>
+    <h1>
+        Department Details <i class="fa fa-check-square-o" aria-hidden="true"></i>
+    </h1>
+
+    <table *ngIf="departmentDetail?.name" class="table table-dark">
+        <tbody>
+            <tr>
+                <td>{{this.departmentDetail?.id}}</td>
+                <td>{{this.departmentDetail?.name}}</td>
+                <td>{{this.departmentDetail?.location}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    </div>
+</div>

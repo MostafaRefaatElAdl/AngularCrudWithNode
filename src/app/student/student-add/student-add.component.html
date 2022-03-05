@@ -1,0 +1,17 @@
+<table class="table table-bordered">
+    <tbody>
+    <tr>
+      <td><label>ID: </label><input type="text" [(ngModel)]="newStudent.Id" placeholder="Student ID"></td>
+      <td><label>Name: </label><input type="text" [(ngModel)]="newStudent.Name" placeholder="Student Name"></td>
+      <td><label>Age: </label><input type="text" [(ngModel)]="newStudent.Age" placeholder="Student Age"></td>
+    </tr>
+    <tr>
+      <td colspan="3"><button class="btn btn-success" (click)="addStudent()">
+          ADD
+        </button></td>
+        
+    </tr>
+    </tbody>
+  
+  </table>
+  

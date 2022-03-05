@@ -1,0 +1,18 @@
+<h1>Add Department</h1>
+<table class="table table-borderless">
+    <tbody>
+    <tr>
+      <td><label>ID: </label><input type="text" [(ngModel)]="newDepartment.id" placeholder="Department ID"></td>
+      <td><label>Name: </label><input type="text" [(ngModel)]="newDepartment.name" placeholder="Department Name"></td>
+      <td><label>Location: </label><input type="text" [(ngModel)]="newDepartment.location" placeholder="Department Location"></td>
+    </tr>
+    <tr>
+      <td colspan="3"><button class="btn btn-success" (click)="addDepartment()">
+          ADD <i class="fa fa-plus-square" aria-hidden="true"></i>
+        </button></td>
+        
+    </tr>
+    </tbody>
+  
+  </table>
+  

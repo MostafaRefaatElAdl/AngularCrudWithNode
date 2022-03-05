@@ -1,0 +1,21 @@
+<div class="card">
+    <img class="card-img-top" src="holder.js/100x180/" alt="">
+    <div class="card-body">
+        <br>
+<div>
+    <h1>
+        Student Details
+    </h1>
+
+    <table *ngIf="studentDetail" class="table table-dark">
+        <tbody>
+            <tr>
+                <td>{{this.studentDetail?.Id}}</td>
+                <td>{{this.studentDetail?.Name}}</td>
+                <td>{{this.studentDetail?.Age}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    </div>
+</div>
